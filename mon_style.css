@@ -110,4 +110,13 @@ P{
     align-items: center; /* Aligne le texte et l’image */
     gap: 60px; /* Ajoute un espace entre l’image et le texte */
 }
+.element3:hover {
+    transform: scale(1.1); /* Zoom sur le logo au survol */
+}
+.element2:hover {
+    transform: scale(1.1); /* Zoom sur le logo au survol */
+}
+.element1:hover {
+    transform: scale(1.1); /* Zoom sur le logo au survol */
+}
     
