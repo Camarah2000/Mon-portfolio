@@ -65,7 +65,7 @@ footer {
     margin-top: 300px;
     
 }
-button {
+button{
     display: inline-block;
     padding: 10px 15px;
     background-color: #007bff;
@@ -74,9 +74,9 @@ button {
     font-size: 16px;
     border-radius: 5px;
     transition: background 0.3s;
-    cursor: pointer;
     
 }
+
 .bu:hover {
     transform: scale(1.1); /* Zoom sur le logo au survol */
 }
