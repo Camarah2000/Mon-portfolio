@@ -1,4 +1,3 @@
-
 footer {
     /*text-align: center;
     padding: 32px;
@@ -16,13 +15,14 @@ footer {
     
     
 }
+/*
 body {
     font-family: Arial, sans-serif;
    /* margin: 0;
     padding: 0;
     background: #f4f4f4;
     color: #333;*/
-}
+
 
 header {
     background:black;
@@ -63,11 +63,23 @@ h1{
 }
 
 .skill {
-    text-align: center;
-    width: 120px;
-    height: 120px;
-    border-radius: 0%;
-    color: blue;
+    width: 200px; /* largeur de la boîte */
+    height: 110px; /* hauteur de la boîte */
+    background-color: blue; /* couleur de fond */
+    border-radius: 5px;/*solid black; bordure autour de la boîte */
+    padding: 5px; /* espacement interne */
+    margin: 10px auto;  
+    color: white; /* couleur du texte */
+    text-align: center; /* centrer le texte */
+    font-size: 16px; /* taille de la police */
+    text-decoration: none;
+    flex-wrap: wrap;
+    
+    
+
+}
+.skill:hover {
+    transform: scale(1.1); /* Zoom sur le logo au survol */
 }
 
 .skill img {
