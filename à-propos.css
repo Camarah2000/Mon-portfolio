@@ -5,12 +5,22 @@ h1{
     font-size: 20px;
 
 }
+body {
+    font-family: Arial, sans-serif;
+   /* margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: white;*/
+}
 .contener{
     display: flex;  /* Met l’image et le texte sur la même ligne */
     align-items: center; /* Aligne le texte et l’image */
     gap: 60px; /* Ajoute un espace entre l’image et le texte */
 }
-    
+P{
+
+    font-size: 16px;
+}
     
     
 
@@ -65,18 +75,23 @@ footer {
     margin-top: 300px;
     
 }
-button{
+
+.bu:hover {
+    transform: scale(1.1); /* Zoom sur le logo au survol */
+}
+.cv{
     display: inline-block;
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: blue;
     color: white;
     text-decoration: none;
     font-size: 16px;
     border-radius: 5px;
     transition: background 0.3s;
+    transform: scale(1.1);
+    margin-top: 20px;
     
 }
-
-.bu:hover {
+.cv:hover {
     transform: scale(1.1); /* Zoom sur le logo au survol */
 }
