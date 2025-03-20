@@ -1,3 +1,4 @@
+
 body {
     font-family:sans-serif;
    /* margin: 0;
@@ -88,8 +89,43 @@ P{
     text-align: center; /* centrer le texte */
     font-size: 18px; /* taille de la police */
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
 
 }
+.container,.contener{
+    opacity: 0; /* Commence par être invisible */
+    transform: translateY(20px); /* Déplace légèrement l'élément vers le bas */
+    animation: fadeIn 1s forwards; /* Applique l'animation */
+}
+/* Définir l'animation fadeIn */
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+            }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+            }
+        }
+    
+            /* Ajouter des délais progressifs pour chaque élément */
+        .element1:nth-child(1) {
+                animation-delay: 0s;
+            }
+    
+        .element2:nth-child(2) {
+                animation-delay: 0.5s;
+            }
+    
+            
+        .element3:nth-child(3) {
+                animation-delay: 1s;
+            }
+    
+        
+        
+        
 /*le bouton telecharger mon cv dans un bloak*/
 .cv{
     display: inline-block;
@@ -129,3 +165,9 @@ P{
 .stikier{
     text-align: center;
 }
+.cv:hover {
+    transform: scale(1.1); /* Zoom sur le logo au survol */
+}
+/*Délais progressifs pour chaque élement */
+.item:nth-child(1){animation-delay: 0.2s;}
+.item:nth-child(1){animation-delay: 0.4s;}
