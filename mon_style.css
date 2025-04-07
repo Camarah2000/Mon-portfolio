@@ -9,7 +9,7 @@ body {
 header {
     background:#333;
     color: white;
-    padding: 15em;
+    padding: 15px;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15em;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -30,8 +30,8 @@ nav ul li a {
 }
 
 section {
-    padding: 20em;
-    margin: 10em;
+    padding: 20px;
+    margin: 10px;
     /*background: white;
     border-radius: 5em;
     box-shadow: 0 2em 5em rgba(0, 0, 0, 0.1);*/
@@ -39,7 +39,7 @@ section {
 h1{
     text-align: center;
     color:blue;
-    font-size: 16em;
+    font-size: 16px;
 }
 footer {
     /*text-align: center;
@@ -52,15 +52,15 @@ footer {
     height: 10em;*/
     background:black;
     color: white;
-    padding: 32em;
+    padding: 32px;
     text-align: center;
-    margin-top: 200em;
+    margin-top: 200px;
     
 }
 
 P{
 
-    font-size: 16em;
+    font-size: 16px;
 }
 .about{
     background:#f4f4f4;
@@ -71,22 +71,22 @@ P{
     background-position: 0%;
     height: auto;
     width: auto;
-    border-radius: 2em solid white;
+    border-radius: 2px solid white;
     border-radius: 0%;
 
 }
 
 /*avec sa j'ai fait mes contener*/
 .element1,.element2,.element3{
-    width: 400em; /* largeur de la boîte */
-    height: 150em; /* hauteur de la boîte */
+    width: 400px; /* largeur de la boîte */
+    height: 150px; /* hauteur de la boîte */
     background-color: beige; /* couleur de fond */
-    border-radius: 5em;/*solid black; bordure autour de la boîte */
-    padding: 35em; /* espacement interne */
-    margin: 50em auto;  
+    border-radius: 5px;/*solid black; bordure autour de la boîte */
+    padding: 35px; /* espacement interne */
+    margin: 50px auto;  
     color: black; /* couleur du texte */
     text-align: center; /* centrer le texte */
-    font-size: 18em; /* taille de la police */
+    font-size: 18px; /* taille de la police */
     text-decoration: none;
     transition: all 0.5s ease-in-out;
 
@@ -128,14 +128,14 @@ P{
 /*le bouton telecharger mon cv dans un bloak*/
 .cv{
     display: inline-block;
-    padding: 10em 15em;
+    padding: 10px 15px;
     background-color: blue;
     color: white;
     text-decoration: none;
-    font-size: 16em;
-    border-radius: 5em;
+    font-size: 16px;
+    border-radius: 5px;
     transition: background 0.3s;
-    margin-top: 20em;
+    margin-top: 20px;
     
 }
 .cv:hover {
@@ -143,14 +143,14 @@ P{
 }
 
 .photo{
-    border-radius: 100em;
+    border-radius: 100px;
     height: 150;
-    width: 150em;
+    width: 150px;
 }
 .contener{
     display: flex;  /* Met l’image et le texte sur la même ligne */
     align-items: center; /* Aligne le texte et l’image */
-    gap: 60em; /* Ajoute un espace entre l’image et le texte */
+    gap: 60px; /* Ajoute un espace entre l’image et le texte */
 }
 .element3:hover {
     transform: scale(1.1); /* Zoom sur le logo au survol */
