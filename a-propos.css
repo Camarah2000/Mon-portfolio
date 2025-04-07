@@ -22,6 +22,7 @@ body {
     display: flex;  /* Met l’image et le texte sur la même ligne */
     align-items: center; /* Aligne le texte et l’image */
     gap: 60px; /* Ajoute un espace entre l’image et le texte */
+    flex-wrap: wrap;
 }
 P{
 
