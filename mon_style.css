@@ -75,6 +75,7 @@ P{
     width: auto;
     border-radius: 2px solid white;
     border-radius: 0%;
+    flex-wrap: wrap;
 
 }
 
