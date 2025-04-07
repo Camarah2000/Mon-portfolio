@@ -27,6 +27,7 @@ nav ul li {
     display: inline;
     margin: 0 15px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 nav ul li a {
@@ -34,6 +35,11 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 section {
