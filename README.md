@@ -4,7 +4,7 @@ Bienvenue sur mon portfolio personnel développé en HTML et CSS. Ce projet a é
 🚀 Objectif du projet
 L'objectif principal de ce portfolio est de :
 
-Me présenter en tant que développeuse web ou créative.
+Me présenter en tant que développeuse web .
 
 Mettre en valeur mes réalisations (projets, travaux, etc.).
 
