@@ -75,20 +75,6 @@
                 <!-- Ajoute d'autres logos si besoin -->
             </div>
         </section>
-        <script>
-            fetch('header.html')
-              .then(res => res.text())
-              .then(data => {
-                document.getElementById('menu-container').innerHTML = data;
-        
-                // Remettre les événements JS après l'injection
-                const menuToggle = document.getElementById('menu-toggle');
-                const menu = document.getElementById('menu');
-                menuToggle.addEventListener('click', () => {
-                  menu.classList.toggle('show');
-                });
-              });
-          </script>
         
     </main>
     <footer>
