@@ -108,6 +108,7 @@ P{
     width: auto;
     border-radius: 2px solid white;
     border-radius: 0%;
+     flex-wrap: wrap;
 
 }
 
@@ -124,12 +125,14 @@ P{
     font-size: 18px; /* taille de la police */
     text-decoration: none;
     transition: all 0.5s ease-in-out;
+     flex-wrap: wrap;
 
 }
 .container,.contener{
     opacity: 0; /* Commence par être invisible */
     transform: translateY(20px); /* Déplace légèrement l'élément vers le bas */
     animation: fadeIn 1s forwards; /* Applique l'animation */
+     flex-wrap: wrap;
 }
 /* Définir l'animation fadeIn */
     @keyframes fadeIn {
