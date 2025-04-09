@@ -53,6 +53,7 @@ footer {
     width: auto;
     border-radius: 2px solid white;
     border-radius: 0;
+    flex-wrap: wrap;
 
 }
 /*avec sa j'ai fait mes contener*/
