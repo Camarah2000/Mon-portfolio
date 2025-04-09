@@ -20,43 +20,8 @@ header {
     padding: 32px;
     text-align: center;
     margin-top: 200px;
-
 }
   
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-  
-.nav-links li a {
-    color: white;
-    text-decoration: none;
-}
-  
-  
-  /* Responsive : petit écran */
-@media (max-width: 768px) {
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      background-color: white;
-      position: absolute;
-      top: 60px;
-      right: 20px;
-      width: 150px;
-      padding: 10px;
-      border-radius: 8px;
-}
-  
-.nav-links.active {
-        display: flex;
-    }
-    .menu-toggle {
-        display: block;
-    }
-    
-}
 
 section {
     padding: 20px;
@@ -158,11 +123,6 @@ P{
         
         
 /*le bouton telecharger mon cv dans un bloak*/
-.menu-toggle {
-    display: none;
-    font-size: 2rem;
-    cursor: pointer;
-}
 .cv{
     display: inline-block;
     padding: 10px 15px;
