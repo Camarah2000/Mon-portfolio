@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: white;
+    background-color:white;
     color: white;
 }
   
@@ -185,11 +185,6 @@ P{
     transform: scale(1.1); /* Zoom sur le logo au survol */
 }
 
-.photo{
-    border-radius: 100px;
-    height: 150;
-    width: 150px;
-}
 .contener{
     display: flex;  /* Met l’image et le texte sur la même ligne */
     align-items: center; /* Aligne le texte et l’image */
@@ -213,52 +208,8 @@ P{
 /*Délais progressifs pour chaque élement */
 .item:nth-child(1){animation-delay: 0.2s;}
 .item:nth-child(1){animation-delay: 0.4s;}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-  }
-  
-  .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .menu li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .menu-toggle {
-    display: none;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .menu {
-      display: none;
-      flex-direction: column;
-      background-color: white;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      width: 200px;
-    }
-  
-    .menu.show {
-      display: flex;
-    }
-  
-    .menu-toggle {
-      display: block;
-    }
-  }
+
+
   
 
 
