@@ -1,6 +1,6 @@
 .nav-links.mobile-menu{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 
 }
 body {
@@ -34,7 +34,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    flex-wrap: wrap;
+    display: block;
 }
 .photo{
     position: absolute;
