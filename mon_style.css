@@ -1,5 +1,6 @@
 .nav-links.mobile-menu{
     display: flex;
+    flex-direction: column;
 
 }
 body {
@@ -30,7 +31,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    flex-wrap: wrap;
+    display: block;
 }
   
 
