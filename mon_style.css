@@ -31,8 +31,8 @@ nav ul li a {
   
 
 section {
-    padding: 20%;
-    margin: 10%;
+    padding: 20px;
+    margin: 10px;
     /*background: white;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
@@ -40,7 +40,7 @@ section {
 h1{
     text-align: center;
     color:blue;
-    font-size: 16%;
+    font-size: 16px;
 }
 footer {
     /*text-align: center;
@@ -53,15 +53,15 @@ footer {
     height: 10px;*/
     background:black;
     color: white;
-    padding: 32%;
+    padding: 32px;
     text-align: center;
-    margin-top: 200%;
+    margin-top: 200px;
     
 }
 
 P{
 
-    font-size: 16%;
+    font-size: 16px;
 }
 .about{
     background:#f4f4f4;
@@ -69,19 +69,19 @@ P{
 .container{
     display: flex;
     /*flex-direction: wrap;*/
-    background-position: 0%;
+    background-position: 0px;
     height: auto;
     width: auto;
     border-radius: 2px solid white;
-    border-radius: 0%;
+    border-radius: 0px;
      flex-wrap: wrap;
 
 }
 
 /*avec sa j'ai fait mes contener*/
 .element1,.element2,.element3{
-    width: 400%; /* largeur de la boîte */
-    height: 150%; /* hauteur de la boîte */
+    width: 400px; /* largeur de la boîte */
+    height: 150px; /* hauteur de la boîte */
     background-color: beige; /* couleur de fond */
     border-radius: 5%;/*solid black; bordure autour de la boîte */
     padding: 35%; /* espacement interne */
@@ -96,7 +96,7 @@ P{
 }
 .container,.contener{
     opacity: 0; /* Commence par être invisible */
-    transform: translateY(20%); /* Déplace légèrement l'élément vers le bas */
+    transform: translateY(20px); /* Déplace légèrement l'élément vers le bas */
     animation: fadeIn 1s forwards; /* Applique l'animation */
      flex-wrap: wrap;
 }
@@ -104,7 +104,7 @@ P{
     @keyframes fadeIn {
         0% {
             opacity: 0;
-            transform: translateY(20%);
+            transform: translateY(20px);
             }
         100% {
             opacity: 1;
