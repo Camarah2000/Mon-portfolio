@@ -21,6 +21,12 @@ nav ul {
     list-style: none;
     padding: 0;
 }
+.photo{
+    position: absolute;
+    width:20px;
+    right: 20px;
+    margin-top: -10px;
+}
 
 nav ul li {
     display:table-column;
