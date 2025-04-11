@@ -1,6 +1,5 @@
 .nav-links.mobile-menu{
     display: flex;
-    flex-wrap: wrap;
 
 }
 body {
@@ -31,8 +30,6 @@ nav ul {
 nav ul li {
     display:table-column;
     margin: 0 15px;
-    flex-wrap: wrap;
-    list-style: none;
 }
 
 nav ul li a {
@@ -40,7 +37,6 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    flex-wrap: wrap;
 }
   
 h1{
