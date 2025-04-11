@@ -36,6 +36,12 @@ nav ul li a {
     font-weight: bold;
     flex-wrap: wrap;
 }
+.photo{
+    position: absolute;
+    width:20px;
+    right: 20px;
+    margin-top: -10px;
+}
   
 footer {
     /*text-align: center;
