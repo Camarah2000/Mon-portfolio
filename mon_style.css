@@ -69,13 +69,19 @@ P{
 .container{
     display: flex;
     /*flex-direction: wrap;*/
-    background-position: 0px;
+    background-position: 0%;
     height: auto;
     width: auto;
     border-radius: 2px solid white;
-    border-radius: 0px;
+    border-radius: 0%;
      flex-wrap: wrap;
 
+}
+.photo{
+    position: absolute;
+    width:20px;
+    right: 20px;
+    margin-top: -10px;
 }
 
 /*avec sa j'ai fait mes contener*/
