@@ -5,6 +5,10 @@
     flex-direction: column;
 
 }
+.logo{
+    position: absolute;
+    left: 20px;
+}
 body {
     font-family:sans-serif;
    /* margin: 0;
