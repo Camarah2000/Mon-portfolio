@@ -3,6 +3,9 @@
     flex-direction: column;
 
 }
+a{
+    color:white;
+}
 .logo{
     position: absolute;
     left: 20px;
