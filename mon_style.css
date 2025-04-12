@@ -12,7 +12,7 @@ html, body {
     flex-wrap: wrap;
     padding: 20px;
     background-color: white;
-    border: 2px solid #aaa;
+    border: 20px solid #aaa;
     display: flex; /* pour aligner les boîtes sur une ligne */
     gap: 10px;      /* espacement entre les boîtes */
 }
