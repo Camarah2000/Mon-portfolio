@@ -12,6 +12,10 @@ body {
     background: #f4f4f4;
     color: white;*/
 }
+.logo{
+    position: absolute;
+    left: 20px;
+}
 
 header {
     background:black;
