@@ -42,6 +42,8 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 10px;
+    height: 100%;
+    width: 100%;
     /*background: white;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
