@@ -3,6 +3,9 @@
     flex-direction: column;
 
 }
+a{
+    color:white;
+}
 body {
     font-family:sans-serif;
     height: 100%;
