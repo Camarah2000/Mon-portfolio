@@ -3,6 +3,10 @@
     flex-direction: column;
 
 }
+.logo{
+    position: absolute;
+    left: 20px;
+}
 body {
     font-family:sans-serif;
     height: 100%;
