@@ -44,6 +44,7 @@ section {
     margin: 10px;
     height: 100%;
     width: 100%;
+    position: fixed;
     /*background: white;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
