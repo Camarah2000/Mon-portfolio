@@ -8,8 +8,6 @@ a{
 }
 body {
     font-family:sans-serif;
-    height: 100%;
-    width: 100%;
    /* margin: 0;
     padding: 0;
     background: #f4f4f4;
@@ -60,11 +58,7 @@ h1{
 }
 
 
-.contener{
-    display: flex;  /* Met l’image et le texte sur la même ligne */
-    align-items: center; /* Aligne le texte et l’image */
-    gap: 60px; /* Ajoute un espace entre l’image et le texte */
-}
+
 P{
 
     font-size: 16px;
@@ -76,21 +70,11 @@ P{
 
 
 footer {
-    /*text-align: center;
-    padding: 32px;
-    color: white;
-   position: fixed
-    bottom:0rex;
-    background: #333;
-    margin-top: 300px;
-    height: 10px;*/
     background:black;
     color: white;
     padding: 32px;
     text-align: center;
     margin-top: 300px;
-    height: 100%;
-    width: 100%;
     
 }
 
