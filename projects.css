@@ -71,8 +71,8 @@ footer {
 }
 /*avec sa j'ai fait mes contener*/
 .element1,.element2,.element3{
-    width: 700px; /* largeur de la boîte */
-    height: 500px; /* hauteur de la boîte */
+    width: 600px; /* largeur de la boîte */
+    height: 400px; /* hauteur de la boîte */
     background-color: beige; /* couleur de fond */
     border-radius: 5px;/*solid black; bordure autour de la boîte */
     padding: 35px; /* espacement interne */
